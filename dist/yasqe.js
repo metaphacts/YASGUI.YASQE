@@ -7461,7 +7461,7 @@ module.exports={
         "spec": ">=1.6.0 <2.0.0",
         "type": "range"
       },
-      "/home/lrd900/yasgui/yasqe"
+      "/home/artem/Programming/YASGUI.YASQE"
     ]
   ],
   "_from": "yasgui-utils@>=1.6.0 <2.0.0",
@@ -7490,7 +7490,7 @@ module.exports={
   "_shasum": "bcb9091109c233e3e82737c94c202e6512389c47",
   "_shrinkwrap": null,
   "_spec": "yasgui-utils@^1.6.0",
-  "_where": "/home/lrd900/yasgui/yasqe",
+  "_where": "/home/artem/Programming/YASGUI.YASQE",
   "author": {
     "name": "Laurens Rietveld"
   },
@@ -7658,12 +7658,36 @@ module.exports={
     "major": "gulp major"
   },
   "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "browserify": "^13.1.0",
+    "browserify-shim": "^3.8.12",
+    "browserify-transform-tools": "^1.6.0",
+    "exorcist": "^0.4.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssimport": "^3.1.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-filter": "^4.0.0",
+    "gulp-jsvalidate": "^2.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-streamify": "1.0.2",
+    "gulp-uglify": "^1.5.4",
     "gulp-bump": "^2.2.0",
     "gulp-connect": "^4.2.0",
     "gulp-embedlr": "^0.5.2",
     "gulp-git": "^1.10.0",
     "gulp-livereload": "^3.8.1",
     "gulp-tag-version": "^1.3.0",
+    "node-sass": "^3.8.0",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.2.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "~1.1.0",
+    "vinyl-transform": "1.0.0",
     "watchify": "^3.7.0"
   },
   "bugs": "https://github.com/YASGUI/YASQE/issues/",
@@ -7686,32 +7710,8 @@ module.exports={
     "url": "https://github.com/YASGUI/YASQE.git"
   },
   "dependencies": {
-    "bootstrap-sass": "^3.3.7",
-    "browserify": "^13.1.0",
-    "browserify-shim": "^3.8.12",
-    "browserify-transform-tools": "^1.6.0",
     "codemirror": "5.17.0",
-    "exorcist": "^0.4.0",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-cssimport": "^3.1.0",
-    "gulp-cssnano": "^2.1.2",
-    "gulp-filter": "^4.0.0",
-    "gulp-jsvalidate": "^2.1.0",
-    "gulp-notify": "^2.2.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.3.2",
-    "gulp-sourcemaps": "^1.6.0",
-    "gulp-streamify": "1.0.2",
-    "gulp-uglify": "^1.5.4",
     "jquery": "^2.2.4",
-    "node-sass": "^3.8.0",
-    "require-dir": "^0.3.0",
-    "run-sequence": "^1.2.2",
-    "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "~1.1.0",
-    "vinyl-transform": "1.0.0",
     "yasgui-utils": "^1.6.0"
   },
   "optionalShim": {
